@@ -19,11 +19,11 @@
   },
   "extra": {
       "flarum-extension": {
-          "title": "Potter Theme",
+          "title": "PotterExp Theme",
           "icon": {
               "name": "bolt",
-              "backgroundColor": "#f4f4f4",
-              "color": "#FFFF00"
+              "backgroundColor": "#de8e00",
+              "color": "#ffea7b"
           }
       }
   },
