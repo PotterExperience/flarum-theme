@@ -6,6 +6,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+/* App */
 .App--index .App-header, .App--discussion .App-header, .App--user .App-header {
   background: #252525;
   margin-top: 40px;
@@ -15,10 +16,6 @@ body {
   background: transparent!important;
   height: 90px;
  }
-
-.Header-secondary .Search {
-  margin-right: 0;
-}
 
 /* Hero */
 .Hero {
@@ -31,9 +28,6 @@ body {
   background: transparent;
 }
 
-.item-notifications i, .item-flags i, .item-session button {
-  color: #949494;
-}
 
 /* Search */
 .Search-input .FormControl:placeholder {
@@ -53,6 +47,10 @@ body {
   background: #000;
 }
 
+.Header-secondary .Search {
+  margin-right: 0;
+}
+
 /* Header */
 .Header-logo {
   max-height: 150px;
@@ -61,6 +59,35 @@ body {
 .Header-title {
   position: relative;
   top: -40px;
+}
+
+/* Homepage */
+.IndexPage-newDiscussion {
+  background: #333333;
+  border-radius: 50px;
+  font-weight: 400;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.sideNav .Dropdown--select .Dropdown-menu > li > a {
+  color: #7e7e7e;
+}
+
+.App--index .item-tags {
+  display: none;
+}
+
+/* Profile */
+.UserCard-profile {
+  padding-left: 300px;
+}
+
+
+/* Miscellaneous */
+.Dropdown-togle.Button {
+  color: #6d6d6d;
+  background: #2a2a2a;
 }
 
 .Button--link {
@@ -72,28 +99,6 @@ body {
   letter-spacing: 1px;
 }
 
-.IndexPage-newDiscussion {
-  background: #333333;
-  border-radius: 50px;
-  font-weight: 400;
-  color: #999999;
-  text-transform: uppercase;
-}
-
-.sideNav .Dropdown--select .Dropdown-menu>li>a {
-  color: #7e7e7e;
-}
-
-.App--index .item-tags {
-  display: none;
-}
-
-.Dropdown-togle.Button {
-  color: #6d6d6d;
-  background: #2a2a2a;
-}
-
-/* Profile */
-.UserCard-profile {
-  padding-left: 300px;
+.item-notifications i, .item-flags i, .item-session button {
+  color: #949494;
 }
