@@ -21,9 +21,9 @@
       "flarum-extension": {
           "title": "Potter Theme",
           "icon": {
-              "name": "comments",
+              "name": "bolt",
               "backgroundColor": "#f4f4f4",
-              "color": "#000"
+              "color": "#FFFF00"
           }
       }
   },
